@@ -6,10 +6,10 @@ module.exports = {
   solidity: "0.8.28",
   networks: {
     polygonAmoy: {
-      url: process.env.polygonAmoy,
+      url: process.env.polygonAmoyURL,
       chainId: 80002,
       accounts: {
-        mnemonic: process.env.mnemonic,
+        mnemonic: process.env.seedPhrase,
       },
       gasPrice: 35000000000
     },
